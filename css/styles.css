@@ -35,6 +35,10 @@ body, html {
   grid-template-rows: 300px 500px;
 }
 
+.box {
+  color: white;
+}
+
 .box1 {
   background-color: rgba(0,0,0,0.5);
   border-bottom: 1px dotted white;
@@ -46,8 +50,21 @@ body, html {
 
 .box3 {
   background-color: rgba(0,0,0,0.5);
+  display: grid;
+  grid-template-rows: 50% 50%;
 }
 
 .box4 {
   background-color: rgba(0,0,0,0.1);
+}
+
+.city {
+  height: 100%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
