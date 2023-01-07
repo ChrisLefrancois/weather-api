@@ -2,15 +2,23 @@ body, html {
   margin: 0;
 }
 
-#myInput {
-  width: 100%;
+#search-input {
+  text-align: center;
+  width: 90%;
   height: 40px;
   background-color: transparent;
   color: white;
   margin-top: 16px;
   margin-bottom: 16px;
-  text-align: center;
+  margin-left: 100px;
   padding: 0;
+}
+
+
+
+#submit {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 

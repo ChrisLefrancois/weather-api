@@ -7,19 +7,26 @@
   <body>
     <div class="bg">
       <div class="container">
-         <input type="text" id="myInput" placeholder="Search for a city..">
+        <form id="search-form" class="row">
+          <div class="col-10">
+            <input id="search-input" type="text" class="form-control" placeholder="Find a city">
+          </div>
+          <div class="col-2">
+            <input id="submit" type="submit" class="btn btn-primary" value="Search">
+          </div>
+        </form>
 
          <div class="myGrid">
           <div class="box box1">
             <div class="city">
               <div>
-                <h3 id="city">Milan, Italy</h3>
+                <h3 id="city">City</h3>
                 <p id="date">January 7, 2022 3:00pm</p>
               </div>
               <div>
-                <h1 id="far">80F</h1>
-                <p id="feels">Feels like 87F</p>
-                <p id="hilo">Hi 83F Lo 73F</p>
+                <h1 id="far">Temperature</h1>
+                <p id="feels">Feels like</p>
+                <p id="hilo">Hi and low</p>
               </div>
             </div>
           </div>
@@ -33,5 +40,7 @@
          </div>
       </div>
     </div>
+
+    <script src="./js/weather.js"></script>
   </body>
 </html>
