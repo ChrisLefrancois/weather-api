@@ -15,7 +15,6 @@ body, html {
 }
 
 
-
 #submit {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -75,4 +74,10 @@ body, html {
   flex-direction: column;
   justify-content: space-between;
 
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
 }
